@@ -1,0 +1,20 @@
+Question 1:
+The Sieve of Eratosthenes is the earliest means of finding prime numbers. A description
+can be found at https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes . Write a Spring boot
+application that implements this. The application should provide a front-end (preferably
+React) that takes a maximum integer value as an input, and displays the list of prime
+numbers between 0 and that number. Provide unit tests.
+
+Answer : Please refer to files PrimeNumber.js, PrimeNumber2.js, PrimeNumber3.js
+
+Question 2: 
+You are modifying a human resources application. The current Employee class looks like
+this:
+Currently everyone is an Employee and some of those are Managers, which is
+determined by calling the isManager() method. The company has now started hiring part-
+time employees, so the system must be modified to keep track of them.
+Create a new implementation of the Employee class which provides the flexibility
+required to support the new part-time employee notion. You are free to refactor this class
+as required and add additional classes if needed.
+
+Answer: Please refer to files, Employee.java and Test.java
